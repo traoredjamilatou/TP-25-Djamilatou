@@ -84,7 +84,7 @@
         </section>
         <section>
         <div class="video">
-        <img src="DSC04216.jpg" class="T">
+        <img class="T" src="DSC04216.jpg">
         <!-- <embed src="SaveTube.App-Des Paroles et D-CLIC - Rencontre avec Ilane, 23 ans originaire de Madagascar-(1080p).mp4" class="c"> -->
         </div>
         </section>

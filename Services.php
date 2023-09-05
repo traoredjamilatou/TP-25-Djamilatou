@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="Servvices.css"> -->
     <title>Document</title>
     <link rel="stylesheet" href="Services.css">
 </head>
@@ -83,7 +84,7 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="Sans titre 322.jpg" class="d-block w-100" alt="...">
+        <img src="Edito2.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
         <h1>La Francophonie avec Elles</h1>
        <p>Le Fonds La Francophonie avec Elles a pour objectif de donne aux femmes et aux filles <br> les moyens de renforcer leur acces au developpement economique,a l'education,a la sante</p>
@@ -92,15 +93,15 @@
       <div class="carousel-item">
         <img src="Sans titre 322.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h1>Des Paroles et D-CLIC-Rencontre <br> avecIlane, 23 ans, formee en <br> developpement Web par SAYNA.</h1>
-          <p>Ilane participe au programme D-CLIC.Elle est formee par l'operateur malgache SAYNA.a la <br> suit de sa formation elle souhaite devenir developpeuse Web.</p>
+          <h1>Droits et lutte contre les violences</h1>
+         <p class="B">s'il est un domaine ou le plaidoye est vital,c'est bien celui de la promotion et de la <br> protection des droits des femmes et des filles.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="Sans titre 322.jpg" class="d-block w-100" alt="...">
+        <img src="Sans titre 4.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h1>Des Paroles et D-CLIC-Rencontre <br> avecIlane, 23 ans, formee en <br> developpement Web par SAYNA.</h1>
-          <p>Ilane participe au programme D-CLIC.Elle est formee par l'operateur malgache SAYNA.a la <br> suit de sa formation elle souhaite devenir developpeuse Web.</p>
+        <h1>Education et formation de qualite</h1>
+        <p>Le developpement et la prosperite des pays francophones dependent largement de leur <br>capacite a gagner la bataille contre les inegalites a l'ecole.</p>
         </div>
       </div>
     </div>
@@ -115,4 +116,47 @@
   </div>
   </section>
 <!-- </div> -->
+
+<?php include("footer.php") ?>
+
+<!-- <section class="omni">
+    <section class="footer">
+      <div class="img-footer">
+    <img src="download.png" alt="">
+    <p>SUIVEZ-NOUS-SUR</p>
+    <a href="#"><i class="ri-facebook-fill"></i></a>
+    <a href="#"><i class="ri-instagram-fill"></i></a>
+    <a href="#"><i class="ri-youtube-fill"></i></a>
+    <i class="ri-github-fill"></i>
+    </div>
+    <div class="RA">
+       <p>Organisation internationale de la Francophonie</p>
+    <p>19-21 avenue Bosquet.75007 Paris(France)</p>
+    <p>Telephone (33)1 44 37 33 25</p>
+    <p>Telecopie (33) 1 45 79 14 98</p>
+    </div>
+    <div class="rachi">
+      <p class="P">RECRUTEMENTS</p>
+      <P>APPELS A</P>
+      <P>CANDIDATURES</P>
+      <P>MARCHES PUBLICS</P>
+    </div> 
+    <div class="icons">
+      <p>CONTACTS</p>
+      <P>MENTIONS LEGALES</P>
+      <P>POLITIQUE DE CONFIDENTIALITE</P>
+    </div>
+</div>
+    </section>
+    </section> 
+    <section class="L">
+    <div class="l">Copyright © francophone 2023. All Rights Reserved</div>
+    </section> -->
+    
+
+    <script src="index.js"></script>
+
+  
+</body>
+</html>
   
