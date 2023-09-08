@@ -117,7 +117,12 @@ padding-left: 250px;
     width: 100%;
 }
 .video{
-    margin-bottom: 100px;
+    margin-bottom: 100px; 
+    text-align: center;   
+}
+.T{
+    height: 75%;
+    width: 75%; 
 }
 
 

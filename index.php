@@ -34,25 +34,37 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <section class="hero-section">
         <header>
         <?php include("menu.php") ?>
-
-           <!-- <nav>
-                <div class="logo">
-                    <img src="download.png" alt="">
-                </div>
-                 <ul class="menu">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="Services.html">Services</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
-                </ul> 
-            </nav>-->
+        <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.php">HOME</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="About.php">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Services.html">SERVICES</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html">CONTACT</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav> -->
         </header>
     </section>
-
 
     <section class="innerpage bg-yellow">
     <div class="container">
@@ -72,85 +84,76 @@
 </div>
 <h1>Pour renforcer les compétences numériques des jeunes de l’espace francophone et multiplier leurs chances d’accéder à des emplois décents, en entreprises et dans l’entreprenariat, l’OIF met en œuvre le programme « D-CLIC, formez-vous au numérique ».</h1>
 <p>La transformation numérique de nos sociétés, accélérée par la pandémie de Covid-19, touche tous les secteurs économiques et entraîne le développement de nouveaux métiers numériques. Les Etats et gouvernements doivent les prendre en considération dans la conception et la mise en œuvre de leurs politiques publiques en faveur de l’emploi.</p>
-<div class="midleTop">
-<div>
-<h5>nous avons 850 000 offres d'emploi intéressantes que vous méritez</h5>
-<h3>ton rêve</h3>
-  <h4>formation D-CLIC</h4>
-  <div class="F">
-    <form class="row g-3">
-      <div class="col-auto">
-      <!-- <label for="inputPassword2" class="visually-hidden">Password</label> -->
-      <button type="submit" class="btn btn-primary mb-3">trouver un travail</button>
-      <!-- <input type="password" class="btn btn-primary mb-3" id="inputPassword2" placeholder="trouver un travail"> -->
-      </div>
-      <div class="col-auto">
-        <!-- <label for="inputPassword2" class="visually-hidden">Password</label> -->
-        <input type="password" class="form-control" id="inputPassword2" placeholder="trouver un candidat"> 
-      </div>
-    </div> <br>
-    <div class="f">
-      <div class="col-auto">
-        <!-- <label for="inputPassword2" class="visually-hidden">Password</label> -->
-        <input type="password" class="form-control" id="inputPassword2" placeholder="Nom">
-      </div> 
- 
-    <div class="col-auto">
-      <!-- <label for="inputPassword2" class="visually-hidden">Password</label> -->
-      <input type="password" class="form-control" id="inputPassword2" placeholder="Prenom">
-    </div>
-
-  <div class="col-auto">
-    <!-- <label for="inputPassword2" class="visually-hidden">Password</label> -->
-    <input type="password" class="form-control" id="inputPassword2" placeholder="Email">
-  </div>
-      <div class="col-auto">
-        <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
-      </div>
-    </div>
-    </form>
-
-</div>
-</div>
-</div>
-</div>
 </section>
 
-<section class="D">
-<h3 class="h3">Quelques temoignages de nos apprenants</h3>
-<div class="tem">
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+<section class="A row justify-content-center container">
+<div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="temoins" src="DCLIC PRo 3.jpg" class="d-block w-80" alt="...">
+      <img class="temoins"  src="DCLIC PRo 3.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img class="temoins" src="DECLIC.jpg" class="d-block w-80" alt="...">
+      <img class="temoins" src="DECLIC.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img class="temoins" src="image3.jpeg" class="d-block w-80" alt="...">
+      <img class="temoins"  src="image3.jpeg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img class="temoins" src="Image-illustrative.jpg" class="d-block w-80" alt="...">
+      <img class="temoins"  src="Image-illustrative.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img class="temoins" src="temoin5.jpeg" class="d-block w-80" alt="...">
+      <img class="temoins"  src="temoin5.jpeg" class="d-block w-100" alt="...">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
 <div class="temtext">
-<h3>Chaques annees,des centaines de jeunes sont <br>inities a l'art du numerique a travers <br> le programme D-CLIC par l'OIF</h3>
-</div>
-</div>
+    <h3>Chaques annees,des centaines de jeunes sont <br>inities a l'art du numerique a travers <br> le programme D-CLIC par l'OIF</h3>
+    </div>
 </section>
+<!-- <section class="D">
+<h3 class="h3">Quelques temoignages de nos apprenants</h3>
+    <div class="tem">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="temoins" src="DCLIC PRo 3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img class="temoins" src="DECLIC.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img class="temoins" src="image3.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img class="temoins" src="Image-illustrative.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img class="temoins" src="temoin5.jpeg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="temtext">
+    <h3>Chaques annees,des centaines de jeunes sont <br>inities a l'art du numerique a travers <br> le programme D-CLIC par l'OIF</h3>
+    </div>
+  </div>
+  </section> -->
+
 <?php include("footer.php") ?>
 
 <!-- <section class="omni">
