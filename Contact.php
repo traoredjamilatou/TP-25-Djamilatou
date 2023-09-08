@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="Contact.css">
 </head>
 <body>
+<<<<<<< HEAD
     <section class="hero-section">
         <header>
         <?php include("menu.php") ?>   
@@ -67,6 +68,28 @@
         </header>
     </section>
 
+=======
+
+    <section class="hero-section">
+        <header>
+        <?php include("menu.php") ?>
+
+           <!-- <nav>
+                <div class="logo">
+                    <img src="download.png" alt="">
+                </div>
+                 <ul class="menu">
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul> 
+            </nav>-->
+        </header>
+    </section>
+
+
+>>>>>>> 29f8d7a110cc2735877ca2d2383e138fe62c3e07
     <section class="innerpage bg-yellow">
     <div class="container">
     <div class="row">
